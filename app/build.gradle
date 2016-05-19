@@ -91,7 +91,7 @@ dependencies {
     compile 'com.github.castorflex.smoothprogressbar:library:0.4.+'
     compile 'com.github.chrisbanes.photoview:library:1.2.+'
 
-    apt 'com.squareup.dagger:dagger-compiler:1.2.+'
+    apt 'com.squareup.dagger:dagger-compiler:1.2.3'
 
     compile fileTree(dir: 'libs', include: '*.jar')
 }
@@ -113,4 +113,3 @@ if (propFile.exists()) {
 } else {
     android.buildTypes.release.signingConfig = null
 }
-
