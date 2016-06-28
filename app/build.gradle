@@ -15,7 +15,7 @@ apply plugin: 'android-apt'
 
 repositories {
     mavenCentral()
-    maven { url 'https://crashlytics.com/downloads/maven' }
+    maven { url 'https://maven.fabric.io/public' }
 }
 
 def buildTime() {
